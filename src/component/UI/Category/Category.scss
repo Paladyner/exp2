@@ -1,0 +1,94 @@
+.image-carousel {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  .item-list-wrapper {
+    height: 100%;
+    overflow: hidden;
+    touch-action: pan-y;
+  }
+  .item-list {
+    display: flex;
+    position: relative;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    .item {
+      overflow-x: unset;
+      list-style: none;
+      float: left;
+      touch-action: pan-y;
+    }
+  }
+}
+
+.home-category-list {
+  .group {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .category-grid:before {
+    content: "";
+    display: block;
+    padding-top: 126%;
+  }
+  .category-grid {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    text-align: center;
+    background-color: #fff;
+    display: block;
+    position: relative;
+    transition: transform 0.1s cubic-bezier(0.4, 0, 0.6, 1),
+      box-shadow 0.1s cubic-bezier(0.4, 0, 0.6, 1);
+    .cate-item {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .img {
+        flex-shrink: 1;
+        width: 70%;
+        height: 70%;
+        margin-top: 10%;
+      }
+      .title {
+        width: 90%;
+        height: 3.125rem;
+        text-align: center;
+        .detail {
+          color: rgba(0, 0, 0, 0.8);
+          font-size: 0.875rem;
+          text-decoration: none;
+          line-height: 1.25rem;
+          height: 2.5rem;
+          margin-bottom: 0.625rem;
+          word-break: break-word;
+          overflow: hidden;
+          display: -webkit-box;
+          text-overflow: ellipsis;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+        }
+      }
+    }
+  }
+}
+.img-style {
+  opacity: 1;
+  transition: opacity 0.2s ease;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-property: opacity;
+}

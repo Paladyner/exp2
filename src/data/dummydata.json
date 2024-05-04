@@ -1,0 +1,42 @@
+[
+  {
+    "id": "clothes",
+    "name": "Clothes",
+    "imgurl": "https://cf.shopee.vn/file/687f3967b7c2fe6a134a2c11894eea4b_tn"
+  },
+  {
+    "id": "watch",
+    "name": "Watches",
+    "imgurl": "https://cf.shopee.vn/file/86c294aae72ca1db5f541790f7796260_tn"
+  },
+  {
+    "id": "mobile-gadgets",
+    "name": "Mobile & Gadgets",
+    "imgurl": "https://cf.shopee.vn/file/31234a27876fb89cd522d7e3db1ba5ca_tn"
+  },
+  {
+    "id": "kids",
+    "name": "Moms, Kids & Babies",
+    "imgurl": "https://cf.shopee.vn/file/099edde1ab31df35bc255912bab54a5e_tn"
+  },
+  {
+    "id": "electronic",
+    "name": "Consumer Electronics",
+    "imgurl": "https://cf.shopee.vn/file/978b9e4cb61c611aaaf58664fae133c5_tn"
+  },
+  {
+    "id": "home-living",
+    "name": "Home & Living",
+    "imgurl": "https://cf.shopee.vn/file/24b194a695ea59d384768b7b471d563f_tn"
+  },
+  {
+    "id": "computer",
+    "name": "Computer & Accessories",
+    "imgurl": "https://cf.shopee.vn/file/c3f3edfaa9f6dafc4825b77d8449999d_tn"
+  },
+  {
+    "id": "beauty",
+    "name": "Beauty",
+    "imgurl": "https://cf.shopee.vn/file/ef1f336ecc6f97b790d5aae9916dcb72_tn"
+  }
+]
